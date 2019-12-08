@@ -20,3 +20,7 @@ tMap.set('Steven', {id: 88599});
 tMap.set('Liz', {id: 112233});
 
 mapT.testLoop(tMap);
+mapT.testLoopKeys(tMap);
+mapT.testLoopEntry(tMap);
+mapT.testLoopValue(tMap);
+mapT.testLoopSimple(tMap);
