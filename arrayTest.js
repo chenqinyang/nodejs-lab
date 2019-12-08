@@ -6,8 +6,12 @@ const testSort = (arr) => {
 
 const testLoop = (arr) => {
   arr.map(
-    (v) => console.log('++++Test: each = ', v) 
+    (v, idx) => console.log('++++Test: each = ', v, idx) 
   )
 }
 
-module.exports = {testSort, testLoop};
+const testFilter = (arr) => {
+  return arr.filter ( v => v > 30);
+}
+
+module.exports = {testSort, testLoop, testFilter};
